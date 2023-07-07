@@ -1,0 +1,21 @@
+:root {
+    --background-color: white;
+    --content-background-color: #eee;
+    --heading-color: black;
+    --captions-color: #ccc;
+    --main-text-color: #333;
+    --link-hover-color: black;
+}
+
+@media screen and (max-width: 470px) {
+    body {
+        color: black;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 471px) {
+    body {
+        color: black;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,108 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    background-color: var(--background-color);
+}
+
+.content {
+    background-color: var(--content-background-color);
+    border: 1px dashed black;
+    border-radius: 25px;
+    width: 400px;
+    max-width: 80%;
+}
+
+.right-padding {
+    padding-left: 15px;
+    font-size: 25px;
+    margin-top: -30px;
+    padding-bottom: 8px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 49px;
+    line-height: 44px;
+    color: var(--heading-color);
+}
+
+.captions {
+    font-size: 25px;
+    color: var(--captions-color);
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.subtitle {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 32px;
+    color: var(--heading-color);
+    padding-top: 25px;
+}
+
+.subsubtitle {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 27px;
+    color: var(--heading-color);
+    padding-top: 11px;
+}
+
+.main-text {
+    font-size: 25px;
+    color: var(--main-text-color);
+    margin-top: -15px;
+    padding-bottom: 8px;
+}
+
+@media screen and (min-width: 471px) {
+    .profile {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        pointer-events: none;
+    }
+    body {
+        margin: 5em 3em;
+    }
+    .theme-picker {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+    .content {
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .profile {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        pointer-events: none;
+    }
+    .subtitle {
+        padding-top: 15px;
+    }
+    body {
+        margin: 4em 2em;
+    }
+    .theme-picker {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .content {
+        padding: 2em 1.5em;
+    }
+}
+
+a:link, a:visited, a:link:active {
+    color: rgba(241, 32, 112, 0.898);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--link-hover-color);
+}
