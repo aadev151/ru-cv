@@ -33,6 +33,15 @@ body {
     margin-top: -20px;
 }
 
+.year {
+    font-size: 87px;
+    color: var(--year-color);
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    line-height: 70px;
+}
+
 .subtitle {
     font-weight: 800;
     font-size: 36px;
