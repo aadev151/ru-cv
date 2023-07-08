@@ -5,6 +5,7 @@
     --captions-color: #555;
     --main-text-color: #eee;
     --link-hover-color: white;
+    --year-color: #444;
 }
 
 @media screen and (max-width: 470px) {
